@@ -59,13 +59,13 @@
 
                  Function {
                 // -----------------------------------------------------------------------------------------
-                // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   |     |     |     |     |PRCSR|      |
+                // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   |     |     |     |     |PRCSR|      | TurnOff
                 // | O_TOG|     |     |     |     |     |   |     |     |     |     |     |      |
                 // | REST | REV |P/Pau| Next|     |     |   |     |MUTE |V_DO |V_UP |     |      |
                 //                    |     |     |     |   |     |     |     |
                         label = "Function";
                         bindings = <
-   &bt BT_CLR     &bt BT_SEL 0    &bt BT_SEL 1          &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4       &trans       &trans            &trans          &trans        &kp PSCRN   &trans
+   &bt BT_CLR     &bt BT_SEL 0    &bt BT_SEL 1          &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4       &trans       &trans            &trans          &trans        &kp PSCRN   &soft_off
    &out OUT_TOG   &trans          &trans                &trans          &trans        &trans             &trans       &trans            &trans          &trans        &trans      &trans 
    &sys_reset     &kp K_PREV      &kp K_PLAY_PAUSE      &kp K_NEXT      &trans        &trans             &trans       &kp C_MUTE        &kp K_VOL_DN    &kp K_VOL_UP  &trans      &trans
                                                                           &trans   &trans   &trans   &trans      &trans    &trans
