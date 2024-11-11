@@ -22,3 +22,4 @@ Raise layer is for navigation and F row.
 Function layer is for media keys. Such as Bluetooth, Volume, and Brightness.
 
 ![Function Layer](./docs/Function.png) 
+
